@@ -27,7 +27,15 @@
   * Hides creation of factories (ex) JAXP
   * (e.g) DaoMaker -> DaoFactory -> (XMLDaoFactory or DBDaoFactory)
     * Here DaoMaker is Abstract Factory creating Factories
+<hr />
 
+* Prototype Pattern
+  * Using prototype to create multiple objects
+  * using clone() method
+  * But shallow copy will be the problem
+  * Modify the clone() method to add objects or using copy constructor
+  * Ensure there is no circular object dependency as we are re-using the objects
+  * 
 
 <hr />
 
@@ -41,6 +49,13 @@
 
 * Command Pattern
   * there are 5 main components in this pattern
+    * Client
+    * Invoker
+    * Receiver
+    * Command (i/f)
+    * ConcreteCommand (classes)
+
+
 
 <hr />
 
@@ -62,3 +77,15 @@
     * Separate the Extrinsic State
     * Pass them as parameters
     * Create a factory class
+
+
+
+<hr />
+
+* Decorator Pattern
+  * adds runtime wrapper for the classes
+
+<hr />
+
+* Proxy Pattern
+  * Proxy filter component
