@@ -27,3 +27,35 @@
   * Hides creation of factories (ex) JAXP
   * (e.g) DaoMaker -> DaoFactory -> (XMLDaoFactory or DBDaoFactory)
     * Here DaoMaker is Abstract Factory creating Factories
+
+
+<hr />
+
+### Behavioral Patterns
+
+<hr />
+
+* Template Method Pattern
+  * base template method from parent class will be leveraged by child class
+
+
+<hr />
+
+### Structural Patterns
+
+<hr />
+
+* Adapter Pattern
+  * connecting 2 objects with different inputs
+  * (e.g) weatherfinder interface
+
+
+<hr />
+
+* Flyweight Pattern
+  * This is used for reusing objects and saving memory
+  * (e.g) for mobile applications
+  * Solution:
+    * Separate the Extrinsic State
+    * Pass them as parameters
+    * Create a factory class
