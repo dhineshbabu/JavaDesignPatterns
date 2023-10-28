@@ -37,7 +37,10 @@
 
 * Template Method Pattern
   * base template method from parent class will be leveraged by child class
+<hr />
 
+* Command Pattern
+  * there are 5 main components in this pattern
 
 <hr />
 
