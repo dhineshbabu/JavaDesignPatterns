@@ -70,7 +70,12 @@
     * Command (i/f)
     * ConcreteCommand (classes)
 
+<hr />
 
+* Iterator Pattern
+  * Helps to iterate over a collection
+  * Iterator interface will have hasNext() and next() method
+  * Implementing class should provide the override
 
 <hr />
 
@@ -104,3 +109,11 @@
 
 * Proxy Pattern
   * Proxy filter component
+
+
+<hr />
+
+* Facade Pattern
+  * Facade class makes the complex calls easy by abstracting the backend
+  * Facade is a layer between client and backend
+  * To reduce network calls from client
