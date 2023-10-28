@@ -35,7 +35,22 @@
   * But shallow copy will be the problem
   * Modify the clone() method to add objects or using copy constructor
   * Ensure there is no circular object dependency as we are re-using the objects
-  * 
+ <hr />
+
+* Builder Pattern 
+  * To increase code readability
+  * ```
+    // Before builder pattern
+    HttpClient httpClient = new HttpClient("GET", "https://localhost", "kani", null, null, null);}
+
+  * inner static Builder class will be created
+  * for each field there will be a method that returns the same object (i.e) this
+  * so the method calls can be chained
+  * The final method will be the build() method will pass the current inner static class to the actual Class constructor
+  * ``` 
+    // Using builder
+        HttpClientBuilder builder = new HttpClientBuilder();
+        HttpClient httpClient = builder.method("POST").url("testurl").body("{}").build();
 
 <hr />
 
