@@ -77,6 +77,16 @@
   * Iterator interface will have hasNext() and next() method
   * Implementing class should provide the override
 
+
+
+<hr />
+
+* Observer Pattern
+  * There is an observer and an observable
+    * e.g News Agency, Channels
+      * Channel - Observer or Subscriber
+      * News Agency - Observable or Publisher
+
 <hr />
 
 ### Structural Patterns
